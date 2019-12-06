@@ -1,0 +1,115 @@
+@import url('http://fonts.googleapis.com/css?family=montserrat:300,500');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/background1.png');
+    background-repeat: no-repeat ;
+    background-position: center top ;
+    font-family: montserrat, sans-serif;
+    
+}
+.container{
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+.logo{
+    width: 100px;
+    position: absolute;
+    left: 10%;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 45%;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav li {
+    text-align: end;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px 20px;
+    background-color: rgb(238, 25, 167);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10px;
+}
+nav li:hover{
+    color: rgb(238, 25, 167);
+    background-color: #fff;
+}
+.heading{
+    font-size: 1rem;
+    position: absolute;
+    left: 9%;
+    top: 55%;
+}
+.get-started a{
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        background-color: rgb(238, 25, 167);
+        font-size: 1rem;
+        font-weight: bold;
+        color: #fff;
+        position: absolute;
+        right: 21.5%;
+        top: 1700%;
+}
+.get-started a:hover{
+    color: rgb(238, 25, 167);
+    background-color: #fff;
+}
+.about{
+    margin-top: 40%;
+    padding: 0 50px;
+}
+
+@media only screen and (max-width: 799px){
+    nav ul{
+        list-style-type: none;
+        padding-left: 38%;
+    }
+    .get-started a{
+        position: absolute;
+        right: 5%;
+        top: 1800%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body{
+        background-image: none;
+        background-image: url('../img/Untitled-3.png');
+        background-repeat: no-repeat ;
+        background-position: center top ;
+    }
+    .heading{
+        font-size: 1rem;
+        position: absolute;
+        left: 9%;
+        top: 20%;
+    }
+    nav ul{
+        list-style-type: none;
+        padding-left: 60%;
+    }
+    nav li{
+      background-color: transparent; 
+      color: rgb(14, 13, 13); 
+      text-align: left;
+    }
+    nav li:hover{
+        cursor: pointer;
+        background-color: black;
+        color: rgb(238, 25, 167);;
+    }
+    .get-started a{
+        position: absolute;
+        right: 30%;
+        top: 250%;
+    }
+}
+

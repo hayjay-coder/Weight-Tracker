@@ -1,0 +1,135 @@
+@import url('http://fonts.googleapis.com/css?family=montserrat:300,500');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 194, 227);;
+    font-family: montserrat, sans-serif;
+}
+.login-container{
+    position: relative;
+    text-align: justify;
+    padding: 10px 0 0 300px;
+}
+.logo{
+    width: 100px;
+    position: absolute;
+    left: 10%;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 45%;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav li {
+    text-align: end;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px 20px;
+    background-color: rgb(238, 25, 167);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+nav li:hover{
+    color: rgb(238, 25, 167);
+    background-color: #fff;
+}
+h1{
+    font-size: 1rem;
+    position: absolute;
+    left: 9%;
+    top: 10%;
+}
+.login{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+form{
+    margin: 100px 200px ;
+}
+input{
+    width: 70%;
+    padding: 10px 30px;
+    text-align: justify;
+    font-size: 1rem;
+    border-radius: 4px;
+    border-style: none;
+}
+.login-btn{
+    border-radius: 4px;
+    background: rgb(238, 25, 167);
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-style: none;
+    font-weight: bold;
+    width: 79%;
+}
+.login-btn:hover{
+    background-color: #fff;
+    color: rgb(238, 25, 167);
+    cursor: pointer;
+}
+p{
+    font-size: .9rem;
+}
+
+@media only screen and (max-width: 799px){
+    .login-container{
+        padding: 10px 0 0 80px;
+    }
+    nav ul{
+        padding-left: 30%;
+    }
+    input{
+        width: 80%;
+    }
+    .login-btn{
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    nav ul{
+        list-style-type: none;
+        padding-left: 60%;
+    }
+    nav li{
+      background-color: rgb(243, 194, 227);; 
+      color: rgb(14, 13, 13); 
+      text-align: left;
+    }
+    .login-container{
+        text-align: center;
+        padding: 10px 0 0 5px;
+    }
+    .login{
+        font-size: 2rem;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    form{
+        margin-left: 10px ;
+        margin-left: 19px;
+    }
+    input{
+        width: 170%;
+        padding: 10px 30px;
+        text-align: justify;
+        font-size: 1rem;     
+    }
+    .login-btn{
+        width: 209%;
+        font-size: 1rem;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+

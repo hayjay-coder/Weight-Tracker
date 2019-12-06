@@ -1,0 +1,119 @@
+@import url('http://fonts.googleapis.com/css?family=montserrat:300,500');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 194, 227);
+    font-family: montserrat, sans-serif;
+}
+.containers{
+    position: relative;
+    text-align: justify;
+    padding: 10px 0 0 300px;
+}
+.logo{
+    width: 100px;
+    position: absolute;
+    left: 10%;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 45%;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav li {
+    text-align: end;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px 20px;
+    background-color: rgb(238, 25, 167);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10px;
+}
+nav li:hover{
+    color: rgb(238, 25, 167);
+    background-color: #fff;
+}
+h1{
+    font-size: 1rem;
+    position: absolute;
+    left: 9%;
+    top: 5%;
+}
+form{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.page-title{
+    font-size: 2rem;
+    color: ;
+    font-weight: bold;
+}
+input{
+    width: 40rem;
+    padding: 10px;
+    margin: 5px 0;
+}
+.radio{
+    width: 1rem;
+}
+p{
+    font-size: .8rem;
+}
+.signupbtn{
+    border-radius: 4px;
+    background-color: rgb(238, 25, 167);
+    color: #fff;
+    padding: 10px 30px;
+    border-style: none;
+    font-size: 1rem;
+}
+.signupbtn:hover{
+    background: #fff;
+    color: rgb(238, 25, 167);  
+}
+
+@media only screen and (max-width: 799px){
+    nav ul{
+        list-style-type: none;
+        padding-left: 32%;
+    }
+    .containers{
+        padding: 10px 0 0 80px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .containers{
+        padding: 0;
+    }
+    nav ul{
+        list-style-type: none;
+        padding-left: 60%;
+    }
+    nav li{
+      background-color: rgb(243, 194, 227);; 
+      color: rgb(14, 13, 13); 
+      text-align: left;
+    }
+    h1{
+        font-size: 1rem;
+        position: absolute;
+        left: 9%;
+        top: 2%;
+    }
+    .page-title{
+        font-size: 1.5rem;
+    }
+    form{
+        padding: 0 30px;
+    }
+    input{
+        width: 90%;
+    } 
+}
+
